@@ -4,3 +4,5 @@ lib/
 !lib/README.md
 .DS_Store
 .appengine_data
+.idea/copyright/
+static/
