@@ -11,7 +11,7 @@ def set_filename(filename):
 
 
 def upload_file(file_stream, filename, content_type):
-    bucket = util.getBucket()
+    bucket = util.get_bucket()
     blob = bucket.blob(filename)
 
     blob.upload_from_string(
