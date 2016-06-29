@@ -29,6 +29,5 @@ def server_error(e):
 if __name__ == '__main__':
     app.run(
         host=config.HOST,
-        port=config.PORT,
-        debug=True
+        port=config.PORT
     )

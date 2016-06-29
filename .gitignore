@@ -6,3 +6,4 @@ lib/
 .appengine_data
 .idea/copyright/
 static/
+env/

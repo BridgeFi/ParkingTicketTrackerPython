@@ -1,4 +1,4 @@
-from flask_restful import Resource
+from flask_restful import Resource, reqparse
 from flask import request
 from google_vision import text_index
 from common import json_responses as json
@@ -8,9 +8,9 @@ class GVisionRoute(Resource):
 
     def post(self):
         req = request.form.get('file_path')
-        # Start text_index script for text detection
+# Start textindex script for text detection
         text_index.main(req)
-        # Get Index class for getting response variable
+# Get Index class for getting response variable
         index = text_index.Index()
         response = index.response
 
