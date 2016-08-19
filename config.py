@@ -1,7 +1,7 @@
 # Configuration file, contains all variables necessary for project
 
 SECRET_KEY = ""
-CLOUD_PROJECT_ID = "ara-fe-object-001 "
+CLOUD_PROJECT_ID = "ara-fe-object-001"
 CLOUD_BUCKET_STORAGE = "ara-fe-object-001"
 MAX_CONTENT_LENGTH = 8 * 1024 * 1024
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
