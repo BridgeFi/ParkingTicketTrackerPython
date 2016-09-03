@@ -4,3 +4,5 @@ plugin    = python
 wsgi-file = /home/ec2-user/main.py
 process   = 3
 callable = app
+virtualenv =  /home/ec2-user/Envs/gopinath/
+socket = /tmp/gopinath.sock
